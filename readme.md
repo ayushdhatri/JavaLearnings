@@ -1,1 +1,0 @@
-Hello all java developers
