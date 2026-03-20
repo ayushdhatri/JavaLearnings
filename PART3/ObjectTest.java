@@ -6,6 +6,14 @@ public class ObjectTest{
         // This is the way we create inner class Object when nested class is static
         StaticNestedClass.NestedClass nestedClass1 = new StaticNestedClass.NestedClass();
         nestedClass1.print();
+        LocalInnerClass obj1 = new LocalInnerClass();
+        obj1.display();
+        AnonymousInnerClass aic = new AnonymousInnerClass() {
+            @Override
+            public void print(){
+                System.out.println("hello from implementing anonymous classes");
+            }
+        };
 
     }
 }
