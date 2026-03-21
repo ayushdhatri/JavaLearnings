@@ -1,6 +1,6 @@
 package GenericClass;
 
-public class BoundedGenericClass<T extends Number> {
+public class BoundedGenericClass<T> {
     T value;
     public T getPrintValue(){
         return this.value;
