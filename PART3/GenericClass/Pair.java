@@ -1,0 +1,22 @@
+package GenericClass;
+
+public class Pair<K,V> {
+    public K key;
+    public V value;
+    Pair(K key, V value){
+        this.key = key;
+        this.value = value;
+    }
+    public K getKey(){
+        return this.key;
+    }
+    public void setKey(K key){
+        this.key = key;
+    }
+    public V getValue(){
+        return this.value;
+    }
+    public void setValue(V value){
+        this.value = value;
+    }
+    }

@@ -11,10 +11,12 @@ public class Test {
         }
 
         // Lets see how to use this generic class
+        // this solves the problem of type casting manually it is done automatically
         GenericPrint<Integer> printObj1 = new GenericPrint<>();
         printObj1.setPrintValue(2);
         Integer printedValue = printObj1.getPrintValue();
         System.out.println(printedValue);
+        // 
 
     }
 }
