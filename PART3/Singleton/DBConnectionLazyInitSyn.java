@@ -12,3 +12,7 @@ public class DBConnectionLazyInitSyn {
         return conObj;
     }
 }
+/*
+using synchonized keyword it will put lock which ever thread put locks first
+Disadvantage : putting syncrhonize on methods makes it slow
+ */

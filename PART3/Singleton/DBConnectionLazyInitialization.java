@@ -13,3 +13,7 @@ public class DBConnectionLazyInitialization {
     }
     
 }
+/*
+  The disadvantage of the lazy initialization is lets say two thread come at same time
+  then it will fail and create two different instance and return them individually 
+*/

@@ -35,3 +35,6 @@ When a class is loaded, the JVM inherently guarantees that the class loading pro
  It initializes the INSTANCE variable safely, even if a hundred threads call getInstance() at the exact same millisecond. (This gives us our Thread Safety without bottlenecks).
 
 */
+
+
+
