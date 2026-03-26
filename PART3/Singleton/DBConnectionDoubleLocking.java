@@ -24,4 +24,6 @@ public class DBConnectionDoubleLocking {
     so lets say a thread is running on a core and updates  cache and remove lock and meanwhile another thread came check the memory that it is still null becuase
     changes made by 1st thread is still in cache not updated in memory, so thread 2 also creates new conObj
     To avoid this problem we added volatile keyword to the variable which ensure that read-write operation happens on memory rather than cache
+
+    but still it is slow
  */
