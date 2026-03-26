@@ -7,7 +7,7 @@ public class Eagle implements Bird {
        System.out.println("Eagle can fly");
     }
 
-  
+
 
     public static void main(String[] args){
         // Rather can creating a new class we can prevent that using simply anonymous class
