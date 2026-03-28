@@ -1,10 +1,11 @@
 package Java.JavaLearnings.PART5.JavaCollection;
 
 import java.util.PriorityQueue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 public class PriorityQueues {
     public static void main(String[] args) {
-        PriorityQueue<Integer>pq = new PriorityQueue<>();
+        PriorityBlockingQueue<Integer>pq = new PriorityBlockingQueue<>();
         pq.add(5);
         pq.add(7);
         pq.add(3);
