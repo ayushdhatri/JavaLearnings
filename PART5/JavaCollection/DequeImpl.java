@@ -5,7 +5,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class DequeImpl {
     public static void main(String[] args) {
-        ConcurrentLinkedDeque<Integer> dq = new ConcurrentLinkedDeque()<>();
+        ConcurrentLinkedDeque<Integer> dq = new ConcurrentLinkedDeque();
         // first simply push the element
         dq.addFirst(1);
         // lets try to add elements after 1
@@ -16,6 +16,7 @@ public class DequeImpl {
         dq.forEach((Integer x) -> System.out.println(x));
         System.out.println("first element of the deque : " + dq.peekFirst());
         System.out.println("Last element of the deque : " + dq.peekLast());
+        
 
 
     }
