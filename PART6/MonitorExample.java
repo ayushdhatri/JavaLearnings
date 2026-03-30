@@ -4,8 +4,9 @@ public class MonitorExample {
 
     public synchronized void task1(){
         try{
-            System.out.println("inside task1");
+            System.out.println("inside task1 before Sleep");
             Thread.sleep(10000);
+            System.out.println("inside task1 after Sleep");
         }
         catch(Exception e){
             e.printStackTrace();
